@@ -1,7 +1,4 @@
 # Tooling Documentation
-There are many tools used by mmpug for deployment, testing, and development.
-
-There is a lot of information here - if there are things you are unfamiliar with I recommend you go down the list of each tool and run throught the tutorial linked at the top and consider printing out a cheat sheet if there is one.
 
 This repo has an extensive list of documentation on command line and many other tools. It encompasses much of the information in the below links.
 - [Extensive Ubuntu / Tooling Documentation](https://github.com/JREAM/ubuntu-cheatsheet)
