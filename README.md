@@ -57,21 +57,6 @@ Docker compose allows us to define docker configurations in a manner similar to 
 - [Official Documentation](https://docs.docker.com/compose/)
 - [Cheat Sheet](https://devhints.io/docker-compose)
 
-## Internal Tools
-For completeness I will list some tools that were developed internally that are used for this project.
-
-### Deployer
-The deployer tools is able to automate the execution of multiple lists of commands in a programmatic way. It has been used to automate deployment of code to other robots, automate the building of docker, automate the building of the workspace and more.
-
-At the time of writing this I do not have extensive documentation on this tooling.
-
-### Host Info Tools
-The host info tools toolset allows us to broadcast and see the information of other hosts on the network. This allows payloads to automatically be seen by basestations.
-
-The [mmpug-hosts script](../operations/mmpug_utils/scripts/mmpug-hosts) wraps around the host info tools and allows us to interface with MMPUG specfic hosts.
-
-For more on host management see the docs [here](host_management.md)
-
 ## Linux Configuration
 These are some linux configuration and management tools which some parts of the stack use. You probably don't need to review a lot of this, but it is here if you need to modify this configuration.
 
@@ -86,3 +71,18 @@ Multicast support / configuration is somewhat confusing. These links contain som
 - [Configurating Linux for Multicast](https://tldp.org/HOWTO/Adv-Routing-HOWTO/lartc.multicast.html)
 - [More explanation on stackoverflow](https://serverfault.com/questions/814259/use-ip-route-add-to-add-multicast-routes-to-multiple-interfaces)
 - [netstat -g command](https://www.lifewire.com/netstat-command-2618098)
+
+## Internal Tools
+For completeness I will list some tools that were developed internally that are used for this project.
+
+### Deployer
+The deployer tools is able to automate the execution of multiple lists of commands in a programmatic way. It has been used to automate deployment of code to other robots, automate the building of docker, automate the building of the workspace and more.
+
+At the time of writing this I do not have extensive documentation on this tooling.
+
+### Host Info Tools
+The host info tools toolset allows us to broadcast and see the information of other hosts on the network. This allows payloads to automatically be seen by basestations.
+
+The [mmpug-hosts script](../operations/mmpug_utils/scripts/mmpug-hosts) wraps around the host info tools and allows us to interface with MMPUG specfic hosts.
+
+For more on host management see the docs [here](host_management.md)
