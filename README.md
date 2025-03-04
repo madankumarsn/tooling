@@ -3,6 +3,9 @@
 This repo has an extensive list of documentation on command line and many other tools. It encompasses much of the information in the below links.
 - [Extensive Ubuntu / Tooling Documentation](https://github.com/JREAM/ubuntu-cheatsheet)
 
+- Harvard course- https://harvard-iacs.github.io/2019-CS207/pages/schedule.html
+
+
 ## Terminal
 A lot of the tools that mmpug uses are focused around the linux command line, or terminal. It is recommened you familiarize yourself with command line usage as you will be using the terminal a LOT.
 
